@@ -1,11 +1,11 @@
 require 'formula'
 
 class AndroidScreenRecord < Formula
-  VERSION = '1.2.0'
+  VERSION = '1.3.0'
 
   homepage 'https://github.com/tomorrowkey/android-screen-record'
   url "https://github.com/tomorrowkey/android-screen-record/archive/v#{VERSION}.tar.gz"
-  sha256 '7204992d2a9500c5bfe10e8f3a3ba43228d91b7fd58641f9cb75765592b869c5'
+  sha256 'f07f65bc88f816a1bb02fd19a0515752874be54e7178a4f950a563d2e692eb51'
   version VERSION
   head 'https://github.com/tomorrowkey/android-screen-record.git', :branch => 'main'
 
